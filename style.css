@@ -9,8 +9,8 @@ body {
   height: auto;
   max-width: 100%;
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   width: 50%;
 }
 
@@ -22,12 +22,24 @@ body {
   font-size: 35px;
 }
 
-.table, th, td {
+table {
   border: 1px solid;
-  max-width: 100%;
+  border-collapse: separate;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   color: azure;
+}
+
+th {
+  width: 135px;
+  height: 45px;
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+  width: 135px;
+  height: 45px
 }
