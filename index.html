@@ -3,29 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <title>ITMD-361 Astrology with CSS</title>
 </head>
 <body>
-  <div class="header">
-    <h1>Information On Celestial Bodies</h1>
-  </div>
-  <div class="body">
-    <section>
-      <h1 style="text-align:center;">Saturn</h1>
-      <img src="media_files/saturn_image.jpg" alt="Saturn" class="img">
-    </section>
-    <section>
-      <h1 style="text-align:center;">Jupiter</h1>
-      <img src="media_files/jupiter_image.jpg" alt="Jupiter" class="img">
-    </section>
-    <section>
-      <h1 style="text-align:center;">Mars</h1>
-      <img src="media_files/mars_image.jpg" alt="Mars" class="img">
-    </section>
-    <section>  
-      <h1 style="text-align:center;">Earth</h1>
-      <img src="media_files/earth_image.jpg" alt="Earth" class="img">
-    </section>
-    <section>
+  <div class="wrapper">
+    <div class="header">
+      <h1>Information On Celestial Bodies</h1>
+    </div>
+    <div class="main_img_pane">
+      <section>
+        <h2 style="text-align:center;">Saturn</h2>
+        <img src="media_files/saturn_image.jpg" alt="Saturn" class="img">
+      </section>
+      <section>
+        <h2 style="text-align:center;">Jupiter</h2>
+        <img src="media_files/jupiter_image.jpg" alt="Jupiter" class="img">
+      </section>
+      <section>
+        <h2 style="text-align:center;">Mars</h2>
+        <img src="media_files/mars_image.jpg" alt="Mars" class="img">
+      </section>
+      <section>  
+        <h2 style="text-align:center;">Earth</h2>
+        <img src="media_files/earth_image.jpg" alt="Earth" class="img">
+      </section>
+    </div>
+    <div class="table">
+      <h1>Facts!</h1>
       <table class="table">
         <tr>
           <th> </th>
@@ -62,8 +66,36 @@
           <td>79</td>
           <td>82</td>
         </tr>
+        <tr>
+          <td>Distance from Sun (10<sup>6</sup> km)</td>
+          <td>149.6</td>
+          <td>228.0</td>
+          <td>778.5</td>
+          <td>1432.0</td>
+        </tr>
+        <tr>
+          <td>Mean Temperature (C)</td>
+          <td>15</td>
+          <td>-65</td>
+          <td>-110</td>
+          <td>-140</td>
+        </tr>
+        <tr>
+          <td>Surface Pressure (bars)</td>
+          <td>1</td>
+          <td>0.01</td>
+          <td>N/A</td>
+          <td>N/A</td>
+        </tr>
       </table>
-    </section>
+    </div>
+    <img style="float: left; position: relative; height: 25%; width: 25%; padding: 5%;"src="media_files/astronomy_meme.jpeg" alt="meme" class="img">
+    <footer>
+      <P>This is a css practice website for ITMD-361</P>
+      <p>This class is taught by Adjunct Professor Daniel Kriegelstein</p>
+      <p>All Work for this website has been  created and tinkered with by: Joseph Valente</p>
+      <p>Date of Site Completion: Oct. 10, 2022</p>
+    </footer>
   </div>
-</body> 
+</body>
 </html>
