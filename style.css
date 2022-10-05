@@ -22,4 +22,12 @@ body {
   font-size: 35px;
 }
 
-.content {padding:25px;}
+.table, th, td {
+  border: 1px solid;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: azure;
+}
