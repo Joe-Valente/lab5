@@ -1,6 +1,8 @@
 body {
   font-family: Arial;
   margin: 0;
+  background: rgb(53, 53, 53);
+  color: azure;
 }
 
 .header {
